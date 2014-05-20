@@ -13,7 +13,7 @@ bin/buildout
 
 bin/pserve development.py
 
-in a server:
+in a server (AMAZON WEB SERVICES):
 
 python bootstrap.py
 
@@ -45,3 +45,15 @@ in /etc/apache2/sites-availabe/default
 		Order allow,deny
 		allow from all
 	</Directory>
+	
+	
+them change url's to function
+
+to view in production:
+
+http://guillem.tk/zodiacbauth
+
+login:
+
+user: lacet
+pasw: lacet123
