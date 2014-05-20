@@ -1,0 +1,10 @@
+
+        <h1>Projecte ${project}</h1>
+<h2>Benvinguts a la pàgina inicial "/" root. HOME</h2>
+<h3>Signes del Zodiac</h3>
+% for imatge in imatges:
+	<img src="${request.static_url('zodiacbauth:static/${imatge}')}" height="100" width="100">
+% endfor
+<p><a href="/elmeu">Fes clic aquí per provar sort amb el teu futur.</a></p>
+<p><a href="/guestbook">Vés al llibre de visites</a></p>
+
